@@ -63,12 +63,7 @@ protected:
 	}
 public:
 	Owner(string last, string first, double _wallet) : lastName(last), firstName(first), wallet(_wallet) { id = idGen(); }
-	/*int idGen()
-	{
-		int a = 1000000 + std::rand() % (9999999 - 1000000 + 1);
-		return a;
-	}*/
-	void buyProp(Owner& seller) // дописать функцию покупки, свич выбора покупки, ошибки
+	void buyProp(Owner& seller) 
 	{
 		if (seller.getAmountProp() == 0)
 		{
