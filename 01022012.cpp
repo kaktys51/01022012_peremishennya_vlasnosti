@@ -163,11 +163,9 @@ int main()
 {
 	srand(static_cast<unsigned int>(time(0)));
 
-	Property apart0("Test0", 3000);
-	Property apart1("Test1", 5000);
-	Property apart2("Test2", 5600);
-
-	//apart0.printPropInfo();
+	Property apart0("Storage", 3000);
+	Property apart1("Store", 5000);
+	Property apart2("House", 5600);
 
 	Owner vasa("Vasanovich", "Vasa", 8000);
 	Owner anton("Lukimov", "Anatoly", 4000);
